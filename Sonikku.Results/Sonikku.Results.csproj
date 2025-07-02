@@ -16,9 +16,9 @@
 + Simple to use
 
 Icon provided by icons8 (https://icons8.com)</Description>
-        <Copyright>Artyom Kushnaryov</Copyright>
+        <Copyright>Copyright (c) Artyom Kushnaryov 2025</Copyright>
         <PackageProjectUrl>https://github.com/sonikku-hedgehog/results-csharp</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/sonikku-hedgehog/results-csharp/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageLicenseExpression>WTFPL</PackageLicenseExpression>
         <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/sonikku-hedgehog/results-csharp</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
