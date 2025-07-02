@@ -1,4 +1,4 @@
-﻿namespace Sonikku.Results.InferencedTypes;
+﻿namespace Sonikku.Results.InferredTypes;
 
 /// <summary>
 /// Успешный результат.

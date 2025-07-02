@@ -1,4 +1,4 @@
-﻿using Sonikku.Results.InferencedTypes;
+﻿using Sonikku.Results.InferredTypes;
 
 namespace Sonikku.Results;
 
