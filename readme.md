@@ -213,7 +213,7 @@ there are some limitations:
   public ValueTask<Result> SampleMethodAsync()
   {
       // It may look redundant, but it is what it is :(
-      return ((Result)Result.Success());
+      return ValueTask.FromResult((Result)Result.Success());
   }
   ```
 * Since the Result.Fail("Error message") function takes a string, 
