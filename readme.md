@@ -12,8 +12,8 @@ to improve code readability and the control flow.
     * [Result\<TSuccess\>](#resulttsuccess)
     * [DisposableResult](#disposableresult)
     * [AsyncDisposableResult](#asyncdisposableresult)
-    * [Вывод типов](#type-inference)
-* [Общие рекомендации](#common-recommendations)
+    * [Type inference](#type-inference)
+* [Common recommendations](#common-recommendations)
 
 ## Features
 
