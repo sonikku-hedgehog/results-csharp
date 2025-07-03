@@ -24,19 +24,18 @@ Icon provided by icons8 (https://icons8.com)</Description>
         <RepositoryType>git</RepositoryType>
         <PackageTags>result, results</PackageTags>
         <NeutralLanguage>en</NeutralLanguage>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-      <Optimize>false</Optimize>
-      <DebugSymbols>true</DebugSymbols>
-      <DebugType>embedded</DebugType>
+        <Optimize>false</Optimize>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>embedded</DebugType>
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="icon.png">
-        <Pack>True</Pack>
-        <PackagePath></PackagePath>
-      </None>
+        <None Include="icon.png" Pack="True" PackagePath="\"/>
+        <None Include="..\readme.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
 </Project>
